@@ -8,6 +8,10 @@
   <% end %> 
 </ul>
 
-
+<%= form_tag products_path do %>
+  <%= text_field_tag :product %>
+  
+  <%= submit_tag "add to cart" %>
+<% end %>
 
   
